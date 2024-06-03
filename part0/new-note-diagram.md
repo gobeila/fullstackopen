@@ -1,3 +1,4 @@
+```mermaid
 sequenceDiagram
 participant browser
 participant server
@@ -23,3 +24,4 @@ activate server
 server-->>browser: raw data of the notes
 deactivate server
 deactivate browser
+```
