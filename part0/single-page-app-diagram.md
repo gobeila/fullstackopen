@@ -16,8 +16,8 @@ sequenceDiagram
     activate server
     server->>browser: the css file
     deactivate server
-    deactivate browser
     browser->>server: GET /exampleapp/data.json
+    deactivate browser
     activate server
     server->>browser: the json data
     deactivate server
